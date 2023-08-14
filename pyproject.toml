@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-ai"
+version = "0.1.0"
+description = ""
+authors = ["brightmaraba <brightkoech@gmail.com>"]
+readme = "README.md"
+packages = [{include = "django_ai", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^23.7.0"
+flake8 = "^6.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
