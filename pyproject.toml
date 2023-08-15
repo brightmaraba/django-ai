@@ -10,6 +10,7 @@ packages = [{include = "django_ai", from = "src"}]
 python = "^3.10"
 black = "^23.7.0"
 flake8 = "^6.1.0"
+django = "^4.2.4"
 
 
 [build-system]
